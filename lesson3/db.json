@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "id": "US001",
+      "userName": "Nguyen Van Cuong",
+      "email": "nguyen@gmail.com",
+      "age": 27,
+      "avatar": "http://..."
+    },
+    {
+      "id": "US002",
+      "userName": "Cheryl Holt",
+      "email": "jamiehiggins@yahoo.com",
+      "age": 22,
+      "avatar": "https://placekitten.com/141/639"
+    },
+    {
+      "id": "US003",
+      "userName": "Allison Guzman",
+      "email": "amandawilson@williams.biz",
+      "age": 56,
+      "avatar": "https://placeimg.com/916/205/any"
+    },
+    {
+      "id": "US004",
+      "userName": "Amy Stewart",
+      "email": "franklinrobert@yahoo.com",
+      "age": 45,
+      "avatar": "https://dummyimage.com/520x1023"
+    },
+    {
+      "id": "US005",
+      "userName": "Robert Morton",
+      "email": "joshua79@hotmail.com",
+      "age": 54,
+      "avatar": "https://placeimg.com/741/662/any"
+    },
+    {
+      "id": "US006",
+      "userName": "Jenny Marshall",
+      "email": "matthew19@johnson.org",
+      "age": 47,
+      "avatar": "https://dummyimage.com/705x7"
+    },
+    {
+      "id": "74e0",
+      "userName": "NVC",
+      "email": "nguyen1@gmail.com"
+    },
+    {
+      "id": "73b86537-3b58-405f-85c0-11c793b484e8",
+      "userName": "Nam",
+      "email": "nguyen2@gmail.com"
+    },
+    {
+      "id": "4dbd0db0-2cd0-4f73-8e8e-2e3da974653c",
+      "userName": "Quoc Anh",
+      "email": "nguyen3@gmail.com",
+      "age": "",
+      "avatar": ""
+    }
+  ],
+  "posts": [
+    {
+      "id": "P001",
+      "userId": "US001",
+      "content": "Day la bai post 1",
+      "createdAt": "10-06-2024",
+      "isPublic": true
+    },
+    {
+      "id": "P002",
+      "userId": "US005",
+      "content": "International skill leader relationship player.",
+      "createdAt": "11-09-1982",
+      "isPublic": false
+    },
+    {
+      "id": "P003",
+      "userId": "US003",
+      "content": "Decision call many region hit actually week.",
+      "createdAt": "10-11-1977",
+      "isPublic": false
+    },
+    {
+      "id": "P004",
+      "userId": "US001",
+      "content": "Some likely fight.",
+      "createdAt": "18-01-1989",
+      "isPublic": true
+    },
+    {
+      "id": "P005",
+      "userId": "US004",
+      "content": "Policy yeah box movie.",
+      "createdAt": "26-05-1988",
+      "isPublic": true
+    },
+    {
+      "id": "P006",
+      "userId": "US006",
+      "content": "Onto party Republican including traditional across reach.",
+      "createdAt": "25-09-2009",
+      "isPublic": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "CMT001",
+      "postId": "P001",
+      "createdAt": "10-06-2024",
+      "userId": "US001",
+      "content": "Noi dung comment 1"
+    },
+    {
+      "id": "CMT002",
+      "postId": "P001",
+      "createdAt": "01-10-1984",
+      "userId": "US002",
+      "content": "Anyone month food future young conference statement."
+    },
+    {
+      "id": "CMT003",
+      "postId": "P002",
+      "createdAt": "01-10-2004",
+      "userId": "US006",
+      "content": "Writer late page."
+    },
+    {
+      "id": "CMT004",
+      "postId": "P003",
+      "createdAt": "29-11-2006",
+      "userId": "US003",
+      "content": "Economic quickly director guy day."
+    },
+    {
+      "id": "CMT005",
+      "postId": "P004",
+      "createdAt": "27-03-2013",
+      "userId": "US001",
+      "content": "Common area somebody city."
+    }
+  ]
+}
