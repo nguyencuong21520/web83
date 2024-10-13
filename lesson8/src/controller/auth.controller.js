@@ -4,6 +4,8 @@ import jwt from "jsonwebtoken";
 import dotenv from "dotenv";
 dotenv.config();
 
+let refreshTokens = [a, b, c];
+
 const register = async (req, res) => {
   try {
     const { userName, email, age, avatar, password } = req.body;
@@ -73,6 +75,10 @@ const login = async (req, res) => {
       expiresIn: "1h",
     });
 
+    //Tạo ra freshToken
+
+    refreshTokens.push(ádasd);
+
     res.json({
       message: "Login successful",
       token: token,
@@ -80,6 +86,12 @@ const login = async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: "Server error" });
   }
+};
+
+logout = (req, res) => {
+  const { token } = req.body;
+  refreshTokens = refreshTokens.filter((t) => t !== token);
+  res.status(200).json({ message: "Logged out successfully" });
 };
 
 const authController = {
